@@ -12,5 +12,19 @@ body{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    outline: yellow;
+    outline: none;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: hsl(40,100%,35%);
+    border:none hsl(40,100%,45%);
+}
+.button:active{
+    background-color: hsl(40,100%,40%);
+    border: 3px solid hsl(40,100%,40%);
+}
+.button:focus{
+    background-color: hsl(40,100%,40%);
+    border: 3px solid hsl(40,100%,40%);
+    
 }
